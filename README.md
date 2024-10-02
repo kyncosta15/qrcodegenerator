@@ -13,3 +13,5 @@ Este projeto é um simples gerador de QR Codes feito com HTML, CSS e JavaScript.
 - **HTML**: Para a estruturação da página.
 - **CSS**: Para a estilização e layout.
 - **JavaScript**: Para a lógica de geração de QR Codes e gerenciamento do histórico.
+
+## OBSERVAÇÃO: O código do gerador de QR Code foi feito juntamente com o curso do Matheus Battisti, usado apenas para fins de estudos, porém a parte das páginas e histórico foi de autoria minha.
