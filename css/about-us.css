@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+
+body {
+    justify-content: center;
+    align-items: center;
+    background-color: #875e8b;
+}
+
+#navbar-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c200c;
+    height: 6vh;
+    
+    
+    
+}
+
+#navbar-main .navbar-links,
+#navbar-main .home a,
+#navbar-main .btn button {
+    color: #fff;
+    
+    
+}
+
+#navbar-main .navbar-links {
+    text-decoration: none;
+
+}
+
+
+#navbar-main .links {
+    display: flex;
+    gap: 40px;
+    margin-right: 55px;
+    
+    
+}
+
+
+#navbar-main .home a {
+    font-weight: bold;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+
+#navbar-main .navbar-links:hover{
+    color:#cecece;
+}
+
+
+
+#navbar-main .btn button {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #8786dd;
+    width: 110px;
+    height: 26px;
+    margin-right: 8px;
+}
+
+#navbar-main .btn button:hover {
+    background-color: #a9a8e0;
+    transition: 0.3s;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    height: 70vh;
+    width: 100vh;
+    border-radius: 6px;
+    background-color: #8786dd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.about-us-text{
+    width: 85%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.about-us-text .text {
+    margin-bottom: 75px;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.about-us-text .title h3 {
+    color: white;
+    margin-bottom: 85px;
+}
+
+.about-us-text .text p {
+    color: white;
+}

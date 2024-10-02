@@ -1,0 +1,62 @@
+#navbar-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c200c;
+    height: 6vh;
+    
+    
+    
+}
+
+#navbar-main .navbar-links,
+#navbar-main .home a,
+#navbar-main .btn button {
+    color: #fff;
+    
+    
+}
+
+#navbar-main .navbar-links {
+    text-decoration: none;
+
+}
+
+
+#navbar-main .links {
+    display: flex;
+    gap: 15px;
+    
+    
+}
+
+
+#navbar-main .home a {
+    font-weight: bold;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+
+#navbar-main .navbar-links:hover{
+    color:#cecece;
+}
+
+
+
+#navbar-main .btn button {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #5ddf79;
+    width: 80px;
+    height: 26px;
+    margin-right: 8px;
+}
+
+#navbar-main .btn button:hover {
+    background-color: #5ab96f;
+    transition: 0.3s;
+}
+
+

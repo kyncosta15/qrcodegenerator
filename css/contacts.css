@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    height: 70vh;
+    width: 100vh;
+    border-radius: 6px;
+    background-color: #8786dd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.contacts-text{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    
+    
+    
+}
+
+.contacts-text .title {
+    height: 25px;
+    width: 80px;
+    border-right: 1px solid white;
+}
+
+
+
+
+.contacts-text .title h3 {
+    color: white;
+}
+
+.contacts-text .text p {
+    margin-left: 20px;
+    color: white;
+    
+}
